@@ -47,9 +47,9 @@ main:
                         lb      r25, a(r0)
                         addi    r25, r25, -98
                         add     r1, r1, r25
-                        addi    r25, r1, -96
+                        addi    r25, r1, -97
                         bgez    r25, corection_skip2 
-                        addi    r1, r1, 27
+                        addi    r1, r1, 26
         corection_skip2:
                         sb      r1, cipher(r5)
                         addi    r5, r5, 1              
